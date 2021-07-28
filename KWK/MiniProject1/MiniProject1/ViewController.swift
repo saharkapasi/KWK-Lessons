@@ -9,10 +9,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
-var facts = ["fun fact 1", "fun fact 2", "fun fact 3"]
+var facts = ["I speak four different languages... somewhat fluently.", "I love to paint, read, and cook!", "Sandboarding is super high on my bucket list!", "I'm an avid TV show watcher...it's kind of a problem 📺","Not gonna lie, I'm a foosball master.", "I have adorable five koi fish that live in a pond in my backyard 🐟", "I love to travel 🌎", "I try my best to keep plants alive 🌿"]
+
+@IBOutlet weak var appTitle: UILabel!
+@IBOutlet weak var funFactLabel: UILabel!
     
-    @IBOutlet weak var appTitle: UILabel!
-    @IBOutlet weak var funFactLabel: UILabel!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,9 +24,9 @@ var facts = ["fun fact 1", "fun fact 2", "fun fact 3"]
     @IBAction func funFactTapped(_ sender: Any) {
         let randomIndex = Int.random(in: 0..<facts.count)
         let randomFact = facts[randomIndex]
-        
+
         funFactLabel.text = randomFact
     }
-    
 }
+
 
