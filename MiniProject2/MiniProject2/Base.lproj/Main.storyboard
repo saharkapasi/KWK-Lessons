@@ -1,12 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Fourth View Controller-->
+        <scene sceneID="nh2-k1-Gaz">
+            <objects>
+                <viewController id="7a4-OW-xlH" customClass="FourthViewController" customModule="MiniProject2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NTX-vz-QsZ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Screen 4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zeL-8A-qEY">
+                                <rect key="frame" x="186" y="87" width="69" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FGZ-nd-ySS">
+                                <rect key="frame" x="192" y="230" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="A"/>
+                                <connections>
+                                    <action selector="firstChoiceA:" destination="iSy-yJ-HZU" eventType="touchUpInside" id="HxL-h4-wg4"/>
+                                    <action selector="firstChoiceA:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g23-CY-gNi"/>
+                                    <action selector="secondChoiceA:" destination="IsL-lK-6An" eventType="touchUpInside" id="EOZ-kB-Ayv"/>
+                                    <action selector="thirdChoiceA:" destination="7a4-OW-xlH" eventType="touchUpInside" id="87V-QA-IIw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ibu-FD-zdZ">
+                                <rect key="frame" x="192" y="295" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="B"/>
+                                <connections>
+                                    <action selector="firstChoiceB:" destination="iSy-yJ-HZU" eventType="touchUpInside" id="g0f-8j-EWL"/>
+                                    <action selector="firstChoiceB:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sSv-1X-Vup"/>
+                                    <action selector="secondChoiceB:" destination="IsL-lK-6An" eventType="touchUpInside" id="Pp8-N7-l5m"/>
+                                    <action selector="thirdChoiceB:" destination="7a4-OW-xlH" eventType="touchUpInside" id="o5r-dd-oTZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AXA-5Q-2LP">
+                                <rect key="frame" x="192" y="365" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="C"/>
+                                <connections>
+                                    <action selector="firstChoiceC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6Mt-MG-nc8"/>
+                                    <action selector="firstChoiceC:" destination="iSy-yJ-HZU" eventType="touchUpInside" id="rMq-e8-aIj"/>
+                                    <action selector="secondChoiceC:" destination="IsL-lK-6An" eventType="touchUpInside" id="4FY-95-rG7"/>
+                                    <action selector="thirdChoiceC:" destination="7a4-OW-xlH" eventType="touchUpInside" id="6lu-vh-ZEt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d3I-dc-fBo">
+                                <rect key="frame" x="192" y="442" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="D"/>
+                                <connections>
+                                    <action selector="firstChoiceD:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PW9-cv-SVy"/>
+                                    <action selector="firstChoiceD:" destination="iSy-yJ-HZU" eventType="touchUpInside" id="ccE-jE-Lkj"/>
+                                    <action selector="secondChoiceD:" destination="IsL-lK-6An" eventType="touchUpInside" id="8n9-Ha-vwo"/>
+                                    <action selector="thirdChoiceD:" destination="7a4-OW-xlH" eventType="touchUpInside" id="FlY-gf-Led"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="UKP-rz-O0Z"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="UC7-MV-uzQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AVd-du-bnL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2675" y="138"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -15,30 +86,35 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xsQ-ll-fl1">
-                                <rect key="frame" x="97" y="421" width="221" height="55"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xsQ-ll-fl1">
+                                <rect key="frame" x="97" y="621" width="221" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <state key="normal" title="Next Question"/>
+                                <state key="normal" title="Enter"/>
                                 <connections>
+                                    <action selector="enterButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UaL-Rn-ouF"/>
                                     <segue destination="iSy-yJ-HZU" kind="show" id="Myq-35-zR2"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Screen 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TzY-YP-TYh">
-                                <rect key="frame" x="186" y="158" width="66" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="App Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m6k-SJ-mM9">
+                                <rect key="frame" x="167" y="76" width="69" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="w5N-PS-mWO"/>
+                    <connections>
+                        <outlet property="Answer1" destination="m6k-SJ-mM9" id="LFr-8d-ADr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="43" y="138"/>
+            <point key="canvasLocation" x="42.028985507246382" y="137.94642857142856"/>
         </scene>
         <!--Second View Controller-->
         <scene sceneID="oB8-iI-5jL">
@@ -48,8 +124,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iSe-RL-xO6">
-                                <rect key="frame" x="97" y="421" width="221" height="55"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iSe-RL-xO6">
+                                <rect key="frame" x="97" y="619" width="221" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <state key="normal" title="Next Question"/>
@@ -58,15 +134,58 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Screen 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xDv-EE-s9H">
-                                <rect key="frame" x="104" y="116" width="68" height="21"/>
+                                <rect key="frame" x="180" y="738" width="68" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Question 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TzY-YP-TYh">
+                                <rect key="frame" x="167" y="112" width="81" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Fk-oY-3Kb">
+                                <rect key="frame" x="192" y="227" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="A"/>
+                                <connections>
+                                    <action selector="firstChoiceA:" destination="iSy-yJ-HZU" eventType="touchUpInside" id="nqH-Kh-zs7"/>
+                                    <action selector="firstChoiceA:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uoE-sx-JWK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m3j-tM-Q0E">
+                                <rect key="frame" x="196" y="291" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="B"/>
+                                <connections>
+                                    <action selector="firstChoiceB:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qh9-Wq-R6F"/>
+                                    <action selector="firstChoiceB:" destination="iSy-yJ-HZU" eventType="touchUpInside" id="xnL-CK-dDb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vEg-0e-uaq">
+                                <rect key="frame" x="196" y="358" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="C"/>
+                                <connections>
+                                    <action selector="firstChoiceC:" destination="iSy-yJ-HZU" eventType="touchUpInside" id="Bsq-6A-EsV"/>
+                                    <action selector="firstChoiceC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lLW-QY-U0J"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ifj-7G-yxt">
+                                <rect key="frame" x="199" y="439" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="D"/>
+                                <connections>
+                                    <action selector="firstChoiceD:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7rE-g0-sVy"/>
+                                    <action selector="firstChoiceD:" destination="iSy-yJ-HZU" eventType="touchUpInside" id="bem-rv-v4t"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="qTk-6n-43W"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="wt9-id-oZD"/>
                 </viewController>
@@ -89,9 +208,58 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9u9-WZ-OSP">
+                                <rect key="frame" x="97" y="632" width="221" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <state key="normal" title="Next Question"/>
+                                <connections>
+                                    <segue destination="7a4-OW-xlH" kind="show" id="Uzg-bL-67j"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nZc-uE-8B3">
+                                <rect key="frame" x="192" y="194" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="A"/>
+                                <connections>
+                                    <action selector="firstChoiceA:" destination="iSy-yJ-HZU" eventType="touchUpInside" id="MyU-ka-s2W"/>
+                                    <action selector="firstChoiceA:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VYL-Yd-5SL"/>
+                                    <action selector="secondChoiceA:" destination="IsL-lK-6An" eventType="touchUpInside" id="Rdn-T4-Rmt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k7z-2w-taF">
+                                <rect key="frame" x="192" y="259" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="B"/>
+                                <connections>
+                                    <action selector="firstChoiceB:" destination="iSy-yJ-HZU" eventType="touchUpInside" id="Miy-ke-tZn"/>
+                                    <action selector="firstChoiceB:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WAs-gh-Lvk"/>
+                                    <action selector="secondChoiceB:" destination="IsL-lK-6An" eventType="touchUpInside" id="c1K-0D-8Ly"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AMi-C5-mRu">
+                                <rect key="frame" x="192" y="329" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="C"/>
+                                <connections>
+                                    <action selector="firstChoiceC:" destination="iSy-yJ-HZU" eventType="touchUpInside" id="FWs-3f-gAa"/>
+                                    <action selector="firstChoiceC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VJK-kK-h4r"/>
+                                    <action selector="secondChoiceC:" destination="IsL-lK-6An" eventType="touchUpInside" id="nqv-rL-zjN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8F4-lK-9KB">
+                                <rect key="frame" x="192" y="406" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="D"/>
+                                <connections>
+                                    <action selector="firstChoiceD:" destination="iSy-yJ-HZU" eventType="touchUpInside" id="kSR-6d-mF6"/>
+                                    <action selector="firstChoiceD:" destination="BYZ-38-t0r" eventType="touchUpInside" id="syT-YJ-KbT"/>
+                                    <action selector="secondChoiceD:" destination="IsL-lK-6An" eventType="touchUpInside" id="FUS-kT-vlK"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="WfX-Vz-eQZ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="6Hu-Xl-iNt"/>
                 </viewController>
@@ -100,4 +268,9 @@
             <point key="canvasLocation" x="1829" y="138"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD049FDB26B358D400BB9EE5 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD049FDA26B358D400BB9EE5 /* FourthViewController.swift */; };
 		BD4C49D226B32383002229D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4C49D126B32383002229D3 /* AppDelegate.swift */; };
 		BD4C49D426B32383002229D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4C49D326B32383002229D3 /* SceneDelegate.swift */; };
 		BD4C49D626B32383002229D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4C49D526B32383002229D3 /* ViewController.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD049FDA26B358D400BB9EE5 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 		BD4C49CE26B32383002229D3 /* MiniProject2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniProject2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD4C49D126B32383002229D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD4C49D326B32383002229D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				BD4C49DA26B32383002229D3 /* MiniProject2.xcdatamodeld */,
 				BD4C4A0426B32497002229D3 /* SecondViewController.swift */,
 				BD4C4A0626B324B4002229D3 /* ThirdViewController.swift */,
+				BD049FDA26B358D400BB9EE5 /* FourthViewController.swift */,
 			);
 			path = MiniProject2;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				BD4C49D626B32383002229D3 /* ViewController.swift in Sources */,
 				BD4C49D226B32383002229D3 /* AppDelegate.swift in Sources */,
 				BD4C49D426B32383002229D3 /* SceneDelegate.swift in Sources */,
+				BD049FDB26B358D400BB9EE5 /* FourthViewController.swift in Sources */,
 				BD4C4A0526B32497002229D3 /* SecondViewController.swift in Sources */,
 				BD4C4A0726B324B4002229D3 /* ThirdViewController.swift in Sources */,
 				BD4C49DC26B32383002229D3 /* MiniProject2.xcdatamodeld in Sources */,

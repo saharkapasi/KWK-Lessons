@@ -1,5 +1,5 @@
 //
-//  ThirdViewController.swift
+//  FourthViewController.swift
 //  MiniProject2
 //
 //  Created by Nabil Kapasi on 7/29/21.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ThirdViewController: UIViewController {
+class FourthViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,16 +16,16 @@ class ThirdViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func secondChoiceA(_ sender: UIButton) {
+    @IBAction func thirdChoiceA(_ sender: UIButton) {
     }
     
-    @IBAction func secondChoiceB(_ sender: UIButton) {
+    @IBAction func thirdChoiceB(_ sender: UIButton) {
     }
     
-    @IBAction func secondChoiceC(_ sender: UIButton) {
+    @IBAction func thirdChoiceC(_ sender: UIButton) {
     }
     
-    @IBAction func secondChoiceD(_ sender: UIButton) {
+    @IBAction func thirdChoiceD(_ sender: UIButton) {
     }
     
     /*

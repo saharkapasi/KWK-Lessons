@@ -16,7 +16,18 @@ class SecondViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func firstChoiceA(_ sender: UIButton) {
+    }
+    
+    @IBAction func firstChoiceB(_ sender: UIButton) {
+    }
+    
+    @IBAction func firstChoiceC(_ sender: UIButton) {
+    }
+    
+    @IBAction func firstChoiceD(_ sender: UIButton) {
+    }
+    
     /*
     // MARK: - Navigation
 
