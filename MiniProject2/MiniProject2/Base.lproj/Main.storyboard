@@ -29,9 +29,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="A"/>
                                 <connections>
-                                    <action selector="firstChoiceA:" destination="iSy-yJ-HZU" eventType="touchUpInside" id="HxL-h4-wg4"/>
-                                    <action selector="firstChoiceA:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g23-CY-gNi"/>
-                                    <action selector="secondChoiceA:" destination="IsL-lK-6An" eventType="touchUpInside" id="EOZ-kB-Ayv"/>
                                     <action selector="thirdChoiceA:" destination="7a4-OW-xlH" eventType="touchUpInside" id="87V-QA-IIw"/>
                                 </connections>
                             </button>
@@ -40,9 +37,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="B"/>
                                 <connections>
-                                    <action selector="firstChoiceB:" destination="iSy-yJ-HZU" eventType="touchUpInside" id="g0f-8j-EWL"/>
-                                    <action selector="firstChoiceB:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sSv-1X-Vup"/>
-                                    <action selector="secondChoiceB:" destination="IsL-lK-6An" eventType="touchUpInside" id="Pp8-N7-l5m"/>
                                     <action selector="thirdChoiceB:" destination="7a4-OW-xlH" eventType="touchUpInside" id="o5r-dd-oTZ"/>
                                 </connections>
                             </button>
@@ -51,9 +45,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="C"/>
                                 <connections>
-                                    <action selector="firstChoiceC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6Mt-MG-nc8"/>
-                                    <action selector="firstChoiceC:" destination="iSy-yJ-HZU" eventType="touchUpInside" id="rMq-e8-aIj"/>
-                                    <action selector="secondChoiceC:" destination="IsL-lK-6An" eventType="touchUpInside" id="4FY-95-rG7"/>
                                     <action selector="thirdChoiceC:" destination="7a4-OW-xlH" eventType="touchUpInside" id="6lu-vh-ZEt"/>
                                 </connections>
                             </button>
@@ -62,9 +53,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="D"/>
                                 <connections>
-                                    <action selector="firstChoiceD:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PW9-cv-SVy"/>
-                                    <action selector="firstChoiceD:" destination="iSy-yJ-HZU" eventType="touchUpInside" id="ccE-jE-Lkj"/>
-                                    <action selector="secondChoiceD:" destination="IsL-lK-6An" eventType="touchUpInside" id="8n9-Ha-vwo"/>
                                     <action selector="thirdChoiceD:" destination="7a4-OW-xlH" eventType="touchUpInside" id="FlY-gf-Led"/>
                                 </connections>
                             </button>
@@ -92,7 +80,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <state key="normal" title="Enter"/>
                                 <connections>
-                                    <action selector="enterButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UaL-Rn-ouF"/>
                                     <segue destination="iSy-yJ-HZU" kind="show" id="Myq-35-zR2"/>
                                 </connections>
                             </button>
@@ -108,9 +95,6 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="w5N-PS-mWO"/>
-                    <connections>
-                        <outlet property="Answer1" destination="m6k-SJ-mM9" id="LFr-8d-ADr"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -153,7 +137,6 @@
                                 <state key="normal" title="A"/>
                                 <connections>
                                     <action selector="firstChoiceA:" destination="iSy-yJ-HZU" eventType="touchUpInside" id="nqH-Kh-zs7"/>
-                                    <action selector="firstChoiceA:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uoE-sx-JWK"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m3j-tM-Q0E">
@@ -161,7 +144,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="B"/>
                                 <connections>
-                                    <action selector="firstChoiceB:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qh9-Wq-R6F"/>
                                     <action selector="firstChoiceB:" destination="iSy-yJ-HZU" eventType="touchUpInside" id="xnL-CK-dDb"/>
                                 </connections>
                             </button>
@@ -171,7 +153,6 @@
                                 <state key="normal" title="C"/>
                                 <connections>
                                     <action selector="firstChoiceC:" destination="iSy-yJ-HZU" eventType="touchUpInside" id="Bsq-6A-EsV"/>
-                                    <action selector="firstChoiceC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lLW-QY-U0J"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ifj-7G-yxt">
@@ -179,7 +160,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="D"/>
                                 <connections>
-                                    <action selector="firstChoiceD:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7rE-g0-sVy"/>
                                     <action selector="firstChoiceD:" destination="iSy-yJ-HZU" eventType="touchUpInside" id="bem-rv-v4t"/>
                                 </connections>
                             </button>
@@ -222,8 +202,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="A"/>
                                 <connections>
-                                    <action selector="firstChoiceA:" destination="iSy-yJ-HZU" eventType="touchUpInside" id="MyU-ka-s2W"/>
-                                    <action selector="firstChoiceA:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VYL-Yd-5SL"/>
                                     <action selector="secondChoiceA:" destination="IsL-lK-6An" eventType="touchUpInside" id="Rdn-T4-Rmt"/>
                                 </connections>
                             </button>
@@ -232,8 +210,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="B"/>
                                 <connections>
-                                    <action selector="firstChoiceB:" destination="iSy-yJ-HZU" eventType="touchUpInside" id="Miy-ke-tZn"/>
-                                    <action selector="firstChoiceB:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WAs-gh-Lvk"/>
                                     <action selector="secondChoiceB:" destination="IsL-lK-6An" eventType="touchUpInside" id="c1K-0D-8Ly"/>
                                 </connections>
                             </button>
@@ -242,8 +218,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="C"/>
                                 <connections>
-                                    <action selector="firstChoiceC:" destination="iSy-yJ-HZU" eventType="touchUpInside" id="FWs-3f-gAa"/>
-                                    <action selector="firstChoiceC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VJK-kK-h4r"/>
                                     <action selector="secondChoiceC:" destination="IsL-lK-6An" eventType="touchUpInside" id="nqv-rL-zjN"/>
                                 </connections>
                             </button>
@@ -252,8 +226,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="D"/>
                                 <connections>
-                                    <action selector="firstChoiceD:" destination="iSy-yJ-HZU" eventType="touchUpInside" id="kSR-6d-mF6"/>
-                                    <action selector="firstChoiceD:" destination="BYZ-38-t0r" eventType="touchUpInside" id="syT-YJ-KbT"/>
                                     <action selector="secondChoiceD:" destination="IsL-lK-6An" eventType="touchUpInside" id="FUS-kT-vlK"/>
                                 </connections>
                             </button>
