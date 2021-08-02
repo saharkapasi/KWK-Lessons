@@ -17,6 +17,7 @@
 		BD04A00E26B832D800BB9EE5 /* ToDoListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD04A00D26B832D800BB9EE5 /* ToDoListUITests.swift */; };
 		BD04A01C26B836AA00BB9EE5 /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD04A01B26B836AA00BB9EE5 /* ToDoTableViewController.swift */; };
 		BD04A01E26B83AC500BB9EE5 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD04A01D26B83AC500BB9EE5 /* ToDo.swift */; };
+		BD04A02026B8498900BB9EE5 /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD04A01F26B8498900BB9EE5 /* AddToDoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		BD04A00F26B832D800BB9EE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD04A01B26B836AA00BB9EE5 /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
 		BD04A01D26B83AC500BB9EE5 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		BD04A01F26B8498900BB9EE5 /* AddToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				BD049FF126B832CF00BB9EE5 /* ToDoList.xcdatamodeld */,
 				BD04A01B26B836AA00BB9EE5 /* ToDoTableViewController.swift */,
 				BD04A01D26B83AC500BB9EE5 /* ToDo.swift */,
+				BD04A01F26B8498900BB9EE5 /* AddToDoViewController.swift */,
 			);
 			path = ToDoList;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				BD04A01E26B83AC500BB9EE5 /* ToDo.swift in Sources */,
 				BD04A01C26B836AA00BB9EE5 /* ToDoTableViewController.swift in Sources */,
 				BD049FEB26B832CF00BB9EE5 /* SceneDelegate.swift in Sources */,
+				BD04A02026B8498900BB9EE5 /* AddToDoViewController.swift in Sources */,
 				BD049FF326B832CF00BB9EE5 /* ToDoList.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
