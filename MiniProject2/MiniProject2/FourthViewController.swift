@@ -10,6 +10,8 @@ import UIKit
 
 class FourthViewController: UIViewController {
 
+    @IBOutlet weak var answer3: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -17,15 +19,19 @@ class FourthViewController: UIViewController {
     }
     
     @IBAction func thirdChoiceA(_ sender: UIButton) {
+        answer3.text = "Not correct, try again."
     }
     
     @IBAction func thirdChoiceB(_ sender: UIButton) {
+        answer3.text = "Not correct, try again."
     }
     
     @IBAction func thirdChoiceC(_ sender: UIButton) {
+        answer3.text = "Not correct, try again."
     }
     
     @IBAction func thirdChoiceD(_ sender: UIButton) {
+        answer3.text = "Correct! Good job!"
     }
     
     /*

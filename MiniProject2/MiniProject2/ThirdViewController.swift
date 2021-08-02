@@ -10,6 +10,9 @@ import UIKit
 
 class ThirdViewController: UIViewController {
 
+    @IBOutlet weak var answer2: UILabel!
+    @IBOutlet weak var question2: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -17,15 +20,19 @@ class ThirdViewController: UIViewController {
     }
     
     @IBAction func secondChoiceA(_ sender: UIButton) {
+        answer2.text = "Correct! Good job!"
     }
     
     @IBAction func secondChoiceB(_ sender: UIButton) {
+        answer2.text = "Not correct, try again."
     }
     
     @IBAction func secondChoiceC(_ sender: UIButton) {
+        answer2.text = "Not correct, try again."
     }
     
     @IBAction func secondChoiceD(_ sender: UIButton) {
+        answer2.text = "Not correct, try again."
     }
     
     /*
