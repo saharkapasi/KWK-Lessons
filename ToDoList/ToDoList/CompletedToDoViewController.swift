@@ -10,14 +10,14 @@ import UIKit
 class CompletedToDoViewController: UIViewController {
     
     var previousToDoTVC = ToDoTableViewController()
-    var selectedToDo = ToDoClass()
+    var selectedToDo = ToDoCD?
 
     @IBOutlet weak var toDoDisplay: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        toDoDisplay.text = selectedToDo.description
+        toDoDisplay.text = selectedToDo?.descriptionInCD
 
         // Do any additional setup after loading the view.
     }

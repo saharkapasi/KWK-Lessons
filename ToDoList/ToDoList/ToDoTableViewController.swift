@@ -9,24 +9,35 @@ import UIKit
 
 class ToDoTableViewController: UITableViewController {
 
-    var listOfToDo : [ToDoClass] = []
+    var listOfToDo : [ToDoCD] = []
     
-    func createToDo () -> [ToDoClass] {
-        let swiftToDo = ToDoClass()
-        swiftToDo.description = "Learn Swift"
-        swiftToDo.important = true
-        
-        let dogToDo = ToDoClass ()
-        dogToDo.description = "Walk the Dog"
-        //important set to false by default
-        
-        return [swiftToDo, dogToDo]
+//    func createToDo () -> [ToDoClass] {
+//        let swiftToDo = ToDoClass()
+//        swiftToDo.description = "Learn Swift"
+//        swiftToDo.important = true
+//
+//        let dogToDo = ToDoClass ()
+//        dogToDo.description = "Walk the Dog"
+//        //important set to false by default
+//
+//        return [swiftToDo, dogToDo]
+//    }
+    
+    func getToDos() {
+        if let accessToCoreData = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
+           
+                if let dataFromCoreData = try? accessToCoreData.fetch(ToDoCD.fetchRequest()) as? [ToDoCD] {
+                    
+                        listOfToDo = dataFromCoreData
+                    tableView.reloadData()
+            }
+        }
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-     listOfToDo = createToDo()
+//     listOfToDo = createToDo()
     }
 
     // MARK: - Table view data source
@@ -42,15 +53,17 @@ class ToDoTableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+
+      
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
 
         let eachToDo = listOfToDo[indexPath.row]
-        cell.textLabel?.text = eachToDo.description
+        cell.textLabel?.text = eachToDo.descriptionInCD
         
-        if eachToDo.important {
-            cell.textLabel?.text = "❗️" + eachToDo.description
+        if eachToDo.importantInCD {
+            cell.textLabel?.text = "❗️" + eachToDo.descriptionInCD!
         } else {
-            cell.textLabel?.text = eachToDo.description
+            cell.textLabel?.text = eachToDo.descriptionInCD
         }
 
         return cell
@@ -64,6 +77,9 @@ class ToDoTableViewController: UITableViewController {
         performSegue(withIdentifier: "moveToCompletedToDoVC", sender: eachToDo)
     }
   
+    override func viewWillAppear(_ animated: Bool) {
+        getToDos()
+    }
 
 
 
