@@ -2,7 +2,7 @@
 //  AddToDoViewController.swift
 //  ToDoList
 //
-//  Created by Nabil Kapasi on 8/2/21.
+//  Created by Sahar Kapasi on 8/2/21.
 //
 
 import UIKit
@@ -30,6 +30,7 @@ class AddToDoViewController: UIViewController {
         
         previousToDoTVC.listOfToDo.append(newToDo)
         previousToDoTVC.tableView.reloadData()
+        navigationController?.popViewController(animated:true)
     }
     
     /*
