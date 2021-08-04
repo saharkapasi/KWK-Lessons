@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  CoinSaver
 //
-//  Created by Nabil Kapasi on 8/3/21.
+//  Created by Alyssa Idusuyi on 8/3/21.
 //
 
 import UIKit
