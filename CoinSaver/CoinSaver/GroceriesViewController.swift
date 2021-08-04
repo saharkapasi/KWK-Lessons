@@ -7,15 +7,28 @@
 
 import UIKit
 
-class GroceriesViewController: UIViewController {
+class GroceriesViewController: UIViewController, UITextFieldDelegate {
 
+    @IBOutlet weak var groceriesGoalInput: UITextField!
+    @IBOutlet weak var groceriesGoalDisplay: UITextView!
+    @IBOutlet weak var groceriesLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        groceriesGoalInput.delegate = self
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func groceriesGoalButtonTapped(_ sender: UIButton) {
+        groceriesGoalDisplay.text = "Goal: $\(groceriesGoalInput.text!)"
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        groceriesGoalInput.resignFirstResponder()
+    }
+    
     /*
     // MARK: - Navigation
 
@@ -26,4 +39,11 @@ class GroceriesViewController: UIViewController {
     }
     */
 
+}
+
+extension ViewController: UITextFieldDelegate {
+    internal func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
 }

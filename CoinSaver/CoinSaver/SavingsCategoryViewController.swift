@@ -1,16 +1,15 @@
 //
-//  OtherViewController.swift
+//  SavingsCategoryViewController.swift
 //  CoinSaver
 //
-//  Created by Alyssa Idusuyi on 8/3/21.
+//  Created by Nabil Kapasi on 8/4/21.
 //
 
 import UIKit
 
-class OtherViewController: UIViewController {
+class SavingsCategoryViewController: UIViewController {
 
-    @IBOutlet weak var otherGoalInput: UITextField!
-    @IBOutlet weak var otherLabel: UILabel!
+    @IBOutlet weak var savingsLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,9 +17,7 @@ class OtherViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func otherGoalButtonTapped(_ sender: Any) {
-    }
-    
+
     /*
     // MARK: - Navigation
 

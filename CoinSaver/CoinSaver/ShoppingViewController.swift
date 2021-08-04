@@ -9,13 +9,18 @@ import UIKit
 
 class ShoppingViewController: UIViewController {
 
+    @IBOutlet weak var shoppingGoalInput: UITextField!
+    @IBOutlet weak var shoppingLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func shoppingGoalButtonTapped(_ sender: UIButton) {
+    }
+    
     /*
     // MARK: - Navigation
 

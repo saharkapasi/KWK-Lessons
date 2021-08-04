@@ -9,13 +9,18 @@ import UIKit
 
 class InvestmentsViewController: UIViewController {
 
+    @IBOutlet weak var investmentsGoalInput: UITextField!
+    @IBOutlet weak var investmentsLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func investmentsGoalButtonTapped(_ sender: UIButton) {
+    }
+    
     /*
     // MARK: - Navigation
 

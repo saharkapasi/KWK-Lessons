@@ -9,13 +9,18 @@ import UIKit
 
 class StudentLoansViewController: UIViewController {
 
+    @IBOutlet weak var studentLoansGoalInput: UITextField!
+    @IBOutlet weak var studentLoansLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func studentLoansGoalButtonTapped(_ sender: UIButton) {
+    }
+    
     /*
     // MARK: - Navigation
 

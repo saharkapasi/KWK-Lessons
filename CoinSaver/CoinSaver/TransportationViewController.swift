@@ -9,13 +9,18 @@ import UIKit
 
 class TransportationViewController: UIViewController {
 
+    @IBOutlet weak var transportationGoalInput: UITextField!
+    @IBOutlet weak var transportationLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func transportationGoalButtonTapped(_ sender: UIButton) {
+    }
+    
     /*
     // MARK: - Navigation
 

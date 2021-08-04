@@ -9,13 +9,18 @@ import UIKit
 
 class SavingsViewController: UIViewController {
 
+    @IBOutlet weak var savingsGoalInput: UITextField!
+    @IBOutlet weak var savingsLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func savingsGoalButtonTapped(_ sender: UIButton) {
+    }
+    
     /*
     // MARK: - Navigation
 

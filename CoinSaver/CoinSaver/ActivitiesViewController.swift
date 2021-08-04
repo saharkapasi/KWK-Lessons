@@ -9,13 +9,18 @@ import UIKit
 
 class ActivitiesViewController: UIViewController {
 
+    @IBOutlet weak var activitiesGoalInput: UITextField!
+    @IBOutlet weak var activitiesLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func activitiesGoalButtonTapped(_ sender: UIButton) {
+    }
+    
     /*
     // MARK: - Navigation
 

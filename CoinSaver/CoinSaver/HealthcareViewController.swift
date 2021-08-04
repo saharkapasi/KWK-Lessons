@@ -9,13 +9,18 @@ import UIKit
 
 class HealthcareViewController: UIViewController {
 
+    @IBOutlet weak var healthcareGoalInput: UITextField!
+    @IBOutlet weak var healthcareLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func healthcareGoalButtonTapped(_ sender: UIButton) {
+    }
+    
     /*
     // MARK: - Navigation
 

@@ -16,20 +16,20 @@
 		B9C3CE9C26B9B362003821DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9C3CE9A26B9B362003821DB /* LaunchScreen.storyboard */; };
 		B9C3CEA726B9B363003821DB /* CoinSaverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C3CEA626B9B363003821DB /* CoinSaverTests.swift */; };
 		B9C3CEB226B9B363003821DB /* CoinSaverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C3CEB126B9B363003821DB /* CoinSaverUITests.swift */; };
-		B9C3CEC026B9BEED003821DB /* CategoryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C3CEBF26B9BEED003821DB /* CategoryCollectionViewController.swift */; };
 		B9C3CEC226BA1ABE003821DB /* RentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C3CEC126BA1ABE003821DB /* RentViewController.swift */; };
 		B9C3CEC426BA1B0A003821DB /* GroceriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C3CEC326BA1B0A003821DB /* GroceriesViewController.swift */; };
 		B9C3CEC626BA1B31003821DB /* ActivitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C3CEC526BA1B31003821DB /* ActivitiesViewController.swift */; };
 		B9C3CEC826BA1B4C003821DB /* ShoppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C3CEC726BA1B4C003821DB /* ShoppingViewController.swift */; };
 		B9C3CECA26BA1B6C003821DB /* TransportationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C3CEC926BA1B6C003821DB /* TransportationViewController.swift */; };
 		B9C3CECC26BA1B87003821DB /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C3CECB26BA1B87003821DB /* OtherViewController.swift */; };
-		BDD1CB2126BAFCE500B2A609 /* SavingsCategoryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD1CB2026BAFCE500B2A609 /* SavingsCategoryCollectionViewController.swift */; };
 		BDD1CB2326BAFE7F00B2A609 /* InvestmentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD1CB2226BAFE7F00B2A609 /* InvestmentsViewController.swift */; };
 		BDD1CB2526BAFE9000B2A609 /* StudentLoansViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD1CB2426BAFE9000B2A609 /* StudentLoansViewController.swift */; };
 		BDD1CB2726BAFE9E00B2A609 /* EmergencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD1CB2626BAFE9E00B2A609 /* EmergencyViewController.swift */; };
 		BDD1CB2926BAFEAE00B2A609 /* HealthcareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD1CB2826BAFEAE00B2A609 /* HealthcareViewController.swift */; };
 		BDD1CB2B26BAFEC000B2A609 /* SavingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD1CB2A26BAFEC000B2A609 /* SavingsViewController.swift */; };
 		BDD1CB2D26BB052B00B2A609 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD1CB2C26BB052B00B2A609 /* HomePageViewController.swift */; };
+		BDD1CB2F26BB115100B2A609 /* SpendingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD1CB2E26BB115100B2A609 /* SpendingsViewController.swift */; };
+		BDD1CB3126BB11A300B2A609 /* SavingsCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD1CB3026BB11A300B2A609 /* SavingsCategoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,20 +65,20 @@
 		B9C3CEAD26B9B363003821DB /* CoinSaverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinSaverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9C3CEB126B9B363003821DB /* CoinSaverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinSaverUITests.swift; sourceTree = "<group>"; };
 		B9C3CEB326B9B363003821DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B9C3CEBF26B9BEED003821DB /* CategoryCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewController.swift; sourceTree = "<group>"; };
 		B9C3CEC126BA1ABE003821DB /* RentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentViewController.swift; sourceTree = "<group>"; };
 		B9C3CEC326BA1B0A003821DB /* GroceriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceriesViewController.swift; sourceTree = "<group>"; };
 		B9C3CEC526BA1B31003821DB /* ActivitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesViewController.swift; sourceTree = "<group>"; };
 		B9C3CEC726BA1B4C003821DB /* ShoppingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingViewController.swift; sourceTree = "<group>"; };
 		B9C3CEC926BA1B6C003821DB /* TransportationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportationViewController.swift; sourceTree = "<group>"; };
 		B9C3CECB26BA1B87003821DB /* OtherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
-		BDD1CB2026BAFCE500B2A609 /* SavingsCategoryCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingsCategoryCollectionViewController.swift; sourceTree = "<group>"; };
 		BDD1CB2226BAFE7F00B2A609 /* InvestmentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestmentsViewController.swift; sourceTree = "<group>"; };
 		BDD1CB2426BAFE9000B2A609 /* StudentLoansViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentLoansViewController.swift; sourceTree = "<group>"; };
 		BDD1CB2626BAFE9E00B2A609 /* EmergencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyViewController.swift; sourceTree = "<group>"; };
 		BDD1CB2826BAFEAE00B2A609 /* HealthcareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthcareViewController.swift; sourceTree = "<group>"; };
 		BDD1CB2A26BAFEC000B2A609 /* SavingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingsViewController.swift; sourceTree = "<group>"; };
 		BDD1CB2C26BB052B00B2A609 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		BDD1CB2E26BB115100B2A609 /* SpendingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendingsViewController.swift; sourceTree = "<group>"; };
+		BDD1CB3026BB11A300B2A609 /* SavingsCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingsCategoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,20 +133,20 @@
 				B9C3CE8E26B9B35D003821DB /* SceneDelegate.swift */,
 				B9C3CE9026B9B35D003821DB /* ViewController.swift */,
 				B9C3CE9226B9B35D003821DB /* Main.storyboard */,
+				BDD1CB3026BB11A300B2A609 /* SavingsCategoryViewController.swift */,
+				BDD1CB2E26BB115100B2A609 /* SpendingsViewController.swift */,
 				BDD1CB2C26BB052B00B2A609 /* HomePageViewController.swift */,
 				BDD1CB2A26BAFEC000B2A609 /* SavingsViewController.swift */,
 				BDD1CB2826BAFEAE00B2A609 /* HealthcareViewController.swift */,
 				BDD1CB2626BAFE9E00B2A609 /* EmergencyViewController.swift */,
 				BDD1CB2426BAFE9000B2A609 /* StudentLoansViewController.swift */,
 				BDD1CB2226BAFE7F00B2A609 /* InvestmentsViewController.swift */,
-				BDD1CB2026BAFCE500B2A609 /* SavingsCategoryCollectionViewController.swift */,
 				B9C3CECB26BA1B87003821DB /* OtherViewController.swift */,
 				B9C3CEC926BA1B6C003821DB /* TransportationViewController.swift */,
 				B9C3CEC726BA1B4C003821DB /* ShoppingViewController.swift */,
 				B9C3CEC526BA1B31003821DB /* ActivitiesViewController.swift */,
 				B9C3CEC326BA1B0A003821DB /* GroceriesViewController.swift */,
 				B9C3CEC126BA1ABE003821DB /* RentViewController.swift */,
-				B9C3CEBF26B9BEED003821DB /* CategoryCollectionViewController.swift */,
 				B9C3CE9826B9B362003821DB /* Assets.xcassets */,
 				B9C3CE9A26B9B362003821DB /* LaunchScreen.storyboard */,
 				B9C3CE9D26B9B362003821DB /* Info.plist */,
@@ -303,11 +303,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDD1CB2126BAFCE500B2A609 /* SavingsCategoryCollectionViewController.swift in Sources */,
-				B9C3CEC026B9BEED003821DB /* CategoryCollectionViewController.swift in Sources */,
 				BDD1CB2D26BB052B00B2A609 /* HomePageViewController.swift in Sources */,
 				BDD1CB2526BAFE9000B2A609 /* StudentLoansViewController.swift in Sources */,
 				BDD1CB2326BAFE7F00B2A609 /* InvestmentsViewController.swift in Sources */,
+				BDD1CB2F26BB115100B2A609 /* SpendingsViewController.swift in Sources */,
 				B9C3CECC26BA1B87003821DB /* OtherViewController.swift in Sources */,
 				B9C3CEC826BA1B4C003821DB /* ShoppingViewController.swift in Sources */,
 				B9C3CEC426BA1B0A003821DB /* GroceriesViewController.swift in Sources */,
@@ -318,6 +317,7 @@
 				B9C3CE9126B9B35D003821DB /* ViewController.swift in Sources */,
 				B9C3CEC626BA1B31003821DB /* ActivitiesViewController.swift in Sources */,
 				B9C3CE8D26B9B35D003821DB /* AppDelegate.swift in Sources */,
+				BDD1CB3126BB11A300B2A609 /* SavingsCategoryViewController.swift in Sources */,
 				B9C3CECA26BA1B6C003821DB /* TransportationViewController.swift in Sources */,
 				B9C3CE8F26B9B35D003821DB /* SceneDelegate.swift in Sources */,
 				BDD1CB2726BAFE9E00B2A609 /* EmergencyViewController.swift in Sources */,
