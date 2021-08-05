@@ -11,6 +11,10 @@ class EmergencyViewController: UIViewController {
 
     @IBOutlet weak var emergencyGoalInput: UITextField!
     @IBOutlet weak var emergencyLabel: UILabel!
+    @IBOutlet weak var emergencyGoalOutput: UILabel!
+    @IBOutlet weak var emergencySpentOutput: UILabel!
+    @IBOutlet weak var emergencyLogInput: UITextField!
+    @IBOutlet weak var emergencyRemainingLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,6 +23,20 @@ class EmergencyViewController: UIViewController {
     }
     
     @IBAction func emergencyGoalButtonTapped(_ sender: UIButton) {
+        emergencyGoalOutput.text = "Goal: $\(emergencyGoalInput.text!)"
+    }
+    
+    @IBAction func emergencyLogButtonTapped(_ sender: UIButton) {
+        emergencySpentOutput.text = "Saved: $\(emergencyLogInput.text!)"
+        
+        guard let emergencyGoalNumber = Double(emergencyGoalInput.text!) else {
+            return
+        }
+        
+        if let emergencyLogNumber = Double(emergencyLogInput.text!) {
+            let emergencyRemainingNumber = emergencyGoalNumber - emergencyLogNumber
+            emergencyRemainingLabel.text = "$\(emergencyRemainingNumber) out of $\(emergencyGoalNumber) remaining"
+        }
     }
     
     /*

@@ -11,6 +11,10 @@ class TransportationViewController: UIViewController {
 
     @IBOutlet weak var transportationGoalInput: UITextField!
     @IBOutlet weak var transportationLabel: UILabel!
+    @IBOutlet weak var transportationGoalOutput: UILabel!
+    @IBOutlet weak var transportationSpentOutput: UILabel!
+    @IBOutlet weak var transportationLogInput: UITextField!
+    @IBOutlet weak var transportationRemainingLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,6 +23,20 @@ class TransportationViewController: UIViewController {
     }
     
     @IBAction func transportationGoalButtonTapped(_ sender: UIButton) {
+        transportationGoalOutput.text = "Goal: $\(transportationGoalInput.text!)"
+    }
+    
+    @IBAction func transportationLogButtonTapped(_ sender: UIButton) {
+        transportationSpentOutput.text = "Spent: $\(transportationLogInput.text!)"
+        
+        guard let transportationGoalNumber = Double(transportationGoalInput.text!) else {
+            return
+        }
+        
+        if let transportationLogNumber = Double(transportationLogInput.text!) {
+            let transportationRemainingNumber = transportationGoalNumber - transportationLogNumber
+            transportationRemainingLabel.text = "$\(transportationRemainingNumber) out of $\(transportationGoalNumber) remaining"
+        }
     }
     
     /*

@@ -11,6 +11,10 @@ class SavingsViewController: UIViewController {
 
     @IBOutlet weak var savingsGoalInput: UITextField!
     @IBOutlet weak var savingsLabel: UILabel!
+    @IBOutlet weak var savingsGoalOutput: UILabel!
+    @IBOutlet weak var savingsSpentOutput: UILabel!
+    @IBOutlet weak var savingsLogInput: UITextField!
+    @IBOutlet weak var savingsRemainingLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,6 +23,19 @@ class SavingsViewController: UIViewController {
     }
     
     @IBAction func savingsGoalButtonTapped(_ sender: UIButton) {
+        savingsGoalOutput.text = "Goal: $\(savingsGoalInput.text!)"
+    }
+    @IBAction func savingsLogButtonTapped(_ sender: UIButton) {
+        savingsSpentOutput.text = "Saved: $\(savingsLogInput.text!)"
+        
+        guard let savingsGoalNumber = Double(savingsLogInput.text!) else {
+            return
+        }
+        
+        if let savingsLogNumber = Double(savingsLogInput.text!) {
+            let savingsRemainingNumber = savingsGoalNumber - savingsLogNumber
+            savingsRemainingLabel.text = "$\(savingsRemainingNumber) out of $\(savingsGoalNumber) remaining"
+        }
     }
     
     /*
