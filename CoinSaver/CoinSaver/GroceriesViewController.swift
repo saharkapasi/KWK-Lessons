@@ -28,7 +28,7 @@ class GroceriesViewController: UIViewController {
     }
     
     @IBAction func groceriesLogButtonTapped(_ sender: UIButton) {
-        groceriesSpentOutput.text = "Spent: $\(String(describing: groceriesLogInput.text))"
+        groceriesSpentOutput.text = "Spent: $\( groceriesLogInput.text!)"
         
         guard let groceriesGoalNumber = Double(groceriesGoalInput.text!) else {
             return
@@ -36,6 +36,7 @@ class GroceriesViewController: UIViewController {
         
         if let groceriesLogNumber = Double(groceriesLogInput.text!) {
             let groceriesRemainingNumber = groceriesGoalNumber - groceriesLogNumber
+            
             groceriesRemainingLabel.text = "$\(groceriesRemainingNumber) out of $\(groceriesGoalNumber) remaining"
         }
     }
